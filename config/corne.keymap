@@ -9,6 +9,7 @@
 
 
 // Accents
+#define HOST_OS 2 // Mac OS
 #include "../accents/helper.h"
 #include "../accents/keypos_def/keypos_42keys.h"
 #include "../accents/international_chars/french.dtsi"

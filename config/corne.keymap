@@ -4,10 +4,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "../accents/helper.h"
-#include "../accents/international_chars/french.dtsi"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+
+
+// Accents
+#include "../accents/helper.h"
+#include "../accents/international_chars/french.dtsi"
 
 / {
     combos {

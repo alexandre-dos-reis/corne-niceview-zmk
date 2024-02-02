@@ -19,7 +19,6 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 / {
     combos {
         compatible = "zmk,combos";
-
         combo_escape {
             bindings = <&kp ESCAPE>;
             key-positions = <12 23>;
@@ -30,7 +29,6 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
             label = "Base";
             bindings = <
@@ -62,6 +60,7 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
         };
 
         Accents {
+            label = "Accents";
             bindings = <
 &trans  &trans  &fr_e_grave   &fr_e_circumflex   &fr_e_acute   &trans              &fr_y_diaeresis  &fr_u_grave        &fr_i_circumflex   &fr_o_circumflex  &trans  &trans
 &trans  &fr_ae  &euro_sign    &fr_e_diaeresis    &fr_a_grave   &fr_a_circumflex    &fr_u_diaeresis  &fr_u_circumflex   &fr_i_diaeresis    &fr_oe            &trans  &trans
